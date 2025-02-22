@@ -1,6 +1,7 @@
 # FAQ do CriaScript
 
-Repositório oficial para responder BURRO.
+Repositório oficial das respostas para quem não sabe o que fazer da sua vida. Ou sabe o que fazer mas não sabe onde vai
+se meter.
 
 ### Instalação
 
@@ -23,19 +24,3 @@ npm run build
 ```
 
 Os arquivos estáticos estarão na pasta `build`.
-
-### Deployment
-
-Usando SSH:
-
-```
-USE_SSH=true npm run deploy
-```
-
-Não usando SSH:
-
-```
-GIT_USER=<Your GitHub username> npm run deploy
-```
-
-Se você está usando GitHub pages para hospedar, este comando é uma maneira conveniente de construir o site e enviar para `gh-pages`.
