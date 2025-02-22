@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'FAQ do CriaScript',
-  tagline: 'FAQ oficial para você, burrão',
+  tagline: 'FAQ para você, burrão, saber o que fazer da sua vida',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -60,12 +60,6 @@ const config: Config = {
       },
       items: [
         {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'Comece por aqui',
-        },
-        {
           href: 'https://github.com/criascript/criascript-faq',
           label: 'Veja no GitHub',
           position: 'right',
@@ -76,16 +70,28 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Comece por aqui',
+          title: 'Tá perdido pow?',
           items: [
             {
-              label: 'Início',
+              label: 'Leia isso aqui primeiro',
+              to: '/',
+            },
+            {
+              label: 'Depois isso aqui',
+              to: '/',
+            },
+            {
+              label: 'E por fim isso',
+              to: '/',
+            },
+            {
+              label: 'Já leu? Leia de novo',
               to: '/',
             },
           ],
         },
         {
-          title: 'Redes Sociais',
+          title: 'Redes Sociais do Cria',
           items: [
             {
               label: 'Discord',
