@@ -70,19 +70,19 @@ const config: Config = {
           items: [
             {
               label: 'Leia isso aqui primeiro',
-              to: '/',
+              to: '/category/para-burros',
             },
             {
               label: 'Depois isso aqui',
-              to: '/',
+              to: '/category/para-burros',
             },
             {
               label: 'E por fim isso',
-              to: '/',
+              to: '/category/para-burros',
             },
             {
               label: 'Já leu? Leia de novo',
-              to: '/',
+              to: '/category/para-burros',
             },
           ],
         },
