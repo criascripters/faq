@@ -3,12 +3,12 @@ import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'CriaScript - FAQ',
-  tagline: 'FAQ oficial para os mulas que não sabem o que fazer',
+  title: 'FAQ do CriaScript',
+  tagline: 'FAQ oficial para você, burrão',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://faq.criascript.com',
+  url: 'https://faq.criascript.dev',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -35,26 +35,13 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
+          routeBasePath: '/',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/criascript/criascript-faq/tree/main/docs',
         },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/criascript/criascript-faq/tree/main/packages/create-docusaurus/templates/shared/',
-          // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
-        },
+        blog: false,
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -66,7 +53,7 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'CriaScript - FAQ',
+      title: 'FAQ do CriaScript',
       logo: {
         alt: 'CriaScript Logo',
         src: 'img/logo.svg',
@@ -76,11 +63,11 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Comece por aqui',
         },
         {
           href: 'https://github.com/criascript/criascript-faq',
-          label: 'GitHub',
+          label: 'Veja no GitHub',
           position: 'right',
         },
       ],
@@ -89,16 +76,16 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Comece por aqui',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: 'Início',
+              to: '/',
             },
           ],
         },
         {
-          title: 'Community',
+          title: 'Redes Sociais',
           items: [
             {
               label: 'Discord',
