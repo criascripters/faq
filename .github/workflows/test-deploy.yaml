@@ -1,4 +1,4 @@
-name: Test if the deploy to GitHub Pages will be successful
+name: Test deploy
 
 on:
   pull_request:
