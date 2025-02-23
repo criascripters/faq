@@ -49,12 +49,12 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/criascript-banner.jpg',
     navbar: {
       title: 'FAQ do CriaScript',
       logo: {
         alt: 'CriaScript Logo',
-        src: 'img/logo.svg',
+        src: 'img/criascript.jpg',
       },
       items: [
         {
