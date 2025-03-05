@@ -58,7 +58,7 @@ const config: Config = {
       },
       items: [
         {
-          href: 'https://github.com/criascript/criascript-faq',
+          href: 'https://github.com/criascripters/faq',
           label: 'Veja no GitHub',
           position: 'right',
         },
